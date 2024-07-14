@@ -10,7 +10,7 @@ function Homepage() {
         <>
             <header>
                 <a href="#" className="logo">
-                    <img src="src/assets/IMAGES/A-First_Blood-removebg-preview.png" alt="" />
+                    <img src="public/IMAGES/A-First_Blood-removebg-preview.png" alt="" />
                 </a>
 
                 <ul className="navlinks">
@@ -43,7 +43,7 @@ function Homepage() {
                 </div>
 
                 <div className="hero-img">
-                    <img src="src/assets/IMAGES/2vader.webp" alt="" />
+                    <img src="public/IMAGES/2vader.webp" alt="" />
                 </div>
             </section>
 
