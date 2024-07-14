@@ -1,10 +1,10 @@
-import MenuToggle from "./COMPONENTS/HomePage"
+import HomePage from "./COMPONENTS/HomePage"
 
 
 function App() {
   return (
     <>
-        <MenuToggle/>
+        <HomePage/>
     </>
   )
 }

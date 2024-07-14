@@ -10,7 +10,7 @@ function Homepage() {
         <>
             <header>
                 <a href="#" className="logo">
-                    <img src="src/assets/A-First_Blood-removebg-preview.png" alt="" />
+                    <img src="src/assets/IMAGES/A-First_Blood-removebg-preview.png" alt="" />
                 </a>
 
                 <ul className="navlinks">
@@ -35,7 +35,7 @@ function Homepage() {
 
             <section className="hero">
                 <div className="hero-text">
-                    <h4 data-aos="fade-up" data-aos-duration="1500">Emmy Art</h4>
+                    <h4>Emmy Art</h4>
                     <h1>Bring <br />Wood to Life</h1>
                     <p>Expertly Carved Wooden sculptures and figurines that showcase
                         the natural beauty and versatility of wood
@@ -43,7 +43,7 @@ function Homepage() {
                 </div>
 
                 <div className="hero-img">
-                    <img src="src/assets/2vader.webp" alt="" />
+                    <img src="src/assets/IMAGES/2vader.webp" alt="" />
                 </div>
             </section>
 

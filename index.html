@@ -2,12 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>GAME LANDING PAGE</title>
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="/src/main.jsx">
+        let menu = document.querySelector("#menu-icon");
+        let navlinks = doccument.querySelector(".navlinks");
+        
+        menu.onclick = () => {
+          menu.classList.toggle('bx-x');
+          navlinks.classList.toggle('open');
+        }
+    </script>
   </body>
 </html>
