@@ -1,5 +1,5 @@
 import HomePage from "./pages/HomePage"
-import {Router, Routes, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Nav from "./COMPONENTS/Nav";
 import About from "./pages/About";
 import Footer from "./COMPONENTS/Footer";
