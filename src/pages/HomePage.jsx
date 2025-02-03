@@ -2,6 +2,11 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 
+import vader from '.././assets/IMAGES/2vader.webp'
+import AboutPng from '../assets/IMAGES/about.png'
+import s1 from '../assets/IMAGES/s1.png'
+import s2 from '../assets/IMAGES/s2.png'
+import exb from '../assets/IMAGES/exb.png'
 
 
 
@@ -25,7 +30,7 @@ function HomePage() {
                 </div>
 
                 <div className="hero-img" data-aos="zoom-in" data-aos-duration="1400">
-                    <img src="/src/assets/IMAGES/2vader.webp" alt="" />
+                    <img src={vader} alt="" />
                 </div>
             </section>
 
@@ -59,7 +64,7 @@ function HomePage() {
 
             <section className='about' id='about'>
                 <div className="about-img" data-aos="zoom-in" data-aos-duration="1400">
-                    <img src="/src/assets/IMAGES/about.png" alt="" />
+                    <img src={AboutPng} alt="" />
                 </div>
 
                 <div className="about-text" data-aos="fade-up" data-aos-duration="1400">
@@ -87,7 +92,7 @@ function HomePage() {
                     <div className="shop-content" data-aos="fade-up" data-aos-duration="1400" data-aos-delay="300">
                         <div className="box">
                             <div className="box-image">
-                                <img src="/src/assets/IMAGES/s1.png" alt="" />
+                                <img src={s1} alt="" />
                             </div>
                             <h3>figurines</h3>
                             <h5>View Gallery</h5>
@@ -101,7 +106,7 @@ function HomePage() {
 
                         <div className="box">
                             <div className="box-image">
-                                <img src="/src/assets/IMAGES/s2.png" alt="" />
+                            <img src={s2} alt="" />
                             </div>
                             <h3>Funiture</h3>
                             <h5>View Gallery</h5>
@@ -114,7 +119,7 @@ function HomePage() {
 
                         <div className="box">
                             <div className="box-image">
-                                <img src="/src/assets/IMAGES/s1.png" alt="" />
+                            <img src={s1} alt="" />
                             </div>
                             <h3>figurines</h3>
                             <h5>View Gallery</h5>
@@ -142,7 +147,7 @@ function HomePage() {
 
                     <div className="exb-content">
                         <div className="exb-img" data-aos="zoom-in" data-aos-duration="1400" >
-                            <img src="/src/assets/IMAGES/exb.png" alt="" />
+                            <img src={exb} alt="" />
                         </div>
 
                         <div className="exb-text" data-aos="fade-up" data-aos-duration="1400" data-aos-delay="300">

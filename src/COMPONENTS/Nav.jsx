@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import HamburgerMenu from './HamburgerMenu'
 import { Link } from 'react-router-dom';
+import Logo from '../assets/IMAGES/A-First_Blood-removebg-preview.png'
 
 
 function Nav() {
@@ -20,7 +21,7 @@ function Nav() {
     return(
       <header className={`header ${isSticky ? 'sticky' : ''}`}>
       <a href="#" className="logo">
-          <img src="/src/assets/IMAGES/A-First_Blood-removebg-preview.png" alt="" />
+          <img src={Logo} alt="" />
       </a>
 
       <ul className="navlinks">

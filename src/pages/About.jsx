@@ -1,4 +1,4 @@
-
+import AboutPng from '../assets/IMAGES/about.png'
 
 function About() {
    
@@ -7,7 +7,7 @@ function About() {
             <br /><br /><br /><br />
             <section className='about' id='about'>
                 <div className="about-img" data-aos="zoom-in" data-aos-duration="1400">
-                    <img src="/src/assets/IMAGES/about.png" alt="" />
+                    <img src={AboutPng} alt="" />
                 </div>
 
                 <div className="about-text" data-aos="fade-up" data-aos-duration="1400">

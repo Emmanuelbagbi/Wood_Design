@@ -1,4 +1,5 @@
-
+import s1 from '../assets/IMAGES/s1.png'
+import s2 from '../assets/IMAGES/s2.png'
 
 function Shop() {
     return(
@@ -18,7 +19,7 @@ function Shop() {
                     <div className="shop-content" data-aos="fade-up" data-aos-duration="1400" data-aos-delay="300">
                         <div className="box">
                             <div className="box-image">
-                                <img src="/src/assets/IMAGES/s1.png" alt="" />
+                                <img src={s1} alt="" />
                             </div>
                             <h3>figurines</h3>
                             <h5>View Gallery</h5>
@@ -32,7 +33,7 @@ function Shop() {
 
                         <div className="box">
                             <div className="box-image">
-                                <img src="/src/assets/IMAGES/s2.png" alt="" />
+                                <img src={s2} alt="" />
                             </div>
                             <h3>Funiture</h3>
                             <h5>View Gallery</h5>
@@ -45,7 +46,7 @@ function Shop() {
 
                         <div className="box">
                             <div className="box-image">
-                                <img src="/src/assets/IMAGES/s1.png" alt="" />
+                            <img src={s1} alt="" />
                             </div>
                             <h3>figurines</h3>
                             <h5>View Gallery</h5>

@@ -1,4 +1,4 @@
-
+import exb from '../assets/IMAGES/exb.png'
 
 function Exhibitions() {
    
@@ -18,7 +18,7 @@ function Exhibitions() {
 
                     <div className="exb-content">
                         <div className="exb-img" data-aos="zoom-in" data-aos-duration="1400" >
-                            <img src="/src/assets/IMAGES/exb.png" alt="" />
+                            <img src={exb} alt="" />
                         </div>
 
                         <div className="exb-text" data-aos="fade-up" data-aos-duration="1400" data-aos-delay="300">
